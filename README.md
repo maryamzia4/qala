@@ -63,8 +63,11 @@ php artisan storage:link
 
 ## 🌱 Future Improvements
 1. Stripe/PayPal integration for secure payments
+
 2.Advanced image-based recommendations (YOLO/CLIP)
+
 3.Real-time artist chat for commission requests
+
 4.Mobile-responsive design for all user roles
 
 ## 📄 License
