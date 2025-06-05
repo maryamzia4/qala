@@ -46,8 +46,8 @@
 ## ⚙️ How to Run Locally
 
 ### Step 1: Clone the Repository
-git clone https://github.com/your-username/qala-project.git
-cd qala-project
+git clone https://github.com/maryamzia4/qala.git
+cd qala
 ### Step 2: Install Dependencies
 composer install
 npm install
@@ -64,7 +64,7 @@ php artisan storage:link
 
 ## 🌱 Future Improvements
 
-1. Stripe/PayPal integration for secure payments
+1.Stripe/PayPal integration for secure payments
 
 2.Advanced image-based recommendations (YOLO/CLIP)
 
