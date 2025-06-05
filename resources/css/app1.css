@@ -1,0 +1,118 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    background-color: #6c4ce8; /* Purple shade */
+    padding: 15px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #6c4ce8; /* Purple shade */
+    border-color: #6c4ce8;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #5233c7; /* Darker purple for hover */
+}
+
+/* Card Container */
+.card {
+    border-radius: 12px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Image */
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Card Content */
+.card-body {
+    padding: 15px;
+    text-align: center;
+    background: #f7f5fe; /* Light Lilac background */
+}
+
+/* Title */
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6c4ce8; /* Purple color */
+    margin-bottom: 10px;
+}
+
+/* Text */
+.card-text {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Price Tag */
+.card-price {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #6c4ce8;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Profile Section */
+.profile-header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.profile-header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid #6c4ce8; /* Purple border */
+}
+
+/* Grid System */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col-md-4 {
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
