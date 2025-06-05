@@ -59,9 +59,11 @@ php artisan key:generate
 php artisan migrate
 php artisan serve
 ⚠️ Note: If images do not display correctly, delete the public/storage folder and re-link it:
+
 php artisan storage:link
 
 ## 🌱 Future Improvements
+
 1. Stripe/PayPal integration for secure payments
 
 2.Advanced image-based recommendations (YOLO/CLIP)
